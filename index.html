@@ -76,11 +76,20 @@
     const audio = document.getElementById("my_audio");
 
     const playAudio = () => {
-      audio.play();
+      audio.play().catch(() => {});
       document.removeEventListener("mousemove", playAudio);
+      document.removeEventListener("touchstart", playAudio);
+      document.removeEventListener("click", playAudio);
     };
 
+    // Desktop
     document.addEventListener("mousemove", playAudio);
+
+    // Mobile (IMPORTANT)
+    document.addEventListener("touchstart", playAudio);
+
+    // Backup
+    document.addEventListener("click", playAudio);
   });
 </script>
       
