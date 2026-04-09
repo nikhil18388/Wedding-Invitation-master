@@ -65,9 +65,25 @@
          Just a ping away for any queries: +91 7095956862
          <span></span>
       </p>
-      <div class="music">
-        <audio src="/home/administrator/Videos/Wedding-Invitation-master/assets/mp3/song.mp3" id="my_audio" loop="loop"></audio> 
-      </div>
+  <div class="music">
+  <audio id="my_audio" loop>
+    <source src="./assets/mp3/song.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+<script>
+  window.addEventListener("load", () => {
+    const audio = document.getElementById("my_audio");
+
+    const playAudio = () => {
+      audio.play();
+      document.removeEventListener("mousemove", playAudio);
+    };
+
+    document.addEventListener("mousemove", playAudio);
+  });
+</script>
+      
       <p class="happiness">Join us in our happiness!<br><a href="https://twitter.com/Vinit_Shahdeo" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></p>
       <!-- partial -->
       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
