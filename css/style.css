@@ -577,3 +577,84 @@ a {
 	font-size: 12px;
 	letter-spacing: 0pt;
 }
+
+#heartPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  font-size: 120px;   /* 🔥 Increase size (try 150px / 200px) */
+  color: blue;        /* 🔵 Change color to blue */
+  
+  cursor: pointer;
+  z-index: 9999;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(1.2); }
+  100% { transform: translate(-50%, -50%) scale(1); }
+}
+
+/* Blast hearts */
+.heart {
+  position: fixed;
+  color: red;
+  font-size: 20px;
+  animation: blast 1s ease-out forwards;
+}
+
+@keyframes blast {
+  to {
+    transform: translate(var(--x), var(--y));
+    opacity: 0;
+  }
+}
+
+.heart {
+  position: fixed;
+  color: blue;
+  font-size: 25px;
+  animation: blast 2.5s ease-out forwards;  /* 🔥 increase time (was 1s) */
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.countdown div {
+  background: linear-gradient(135deg, #6a11cb, #a4508b);
+  padding: 15px 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  min-width: 80px;
+  box-shadow: 0 0 20px rgba(164, 80, 139, 0.6);
+  animation: glow 2s infinite alternate;
+}
+
+.countdown span {
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+}
+
+.countdown p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Glow Animation */
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px rgba(164, 80, 139, 0.5);
+  }
+  to {
+    box-shadow: 0 0 25px rgba(164, 80, 139, 1);
+  }
+}
