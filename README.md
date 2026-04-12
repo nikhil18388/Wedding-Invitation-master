@@ -2,7 +2,7 @@
 <p align="center"><a href="https://wedding-invitation-master-eight.vercel.app/"><img src="./assets/wedding.gif" width="150px" height="150px"/></a></p>
 <h1 align="center"><a href="https://wedding-invitation-master-eight.vercel.app/">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: April 26, 2026 <br> <a href="https://wedding-invitation-master-eight.vercel.app/">https://wedding-invitation-master-eight.vercel.app/</a></h1>
 <!--
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/Wedding-Invitation?logo=github)](https://wedding-invitation-master-eight.vercel.app/) [![Netlify Status](https://api.netlify.com/api/v1/badges/e945f101-f434-45e6-8c33-df855c6b2082/deploy-status)](https://app.netlify.com/sites/sonali/deploys) [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Wedding-Invitation?logo=github)](https://github.com/vinitshahdeo/Wedding-Invitation) [![GitHub Star - Vinit Shahdeo](https://img.shields.io/badge/GitHub_Star-%E2%AD%90_vinitshahdeo-E89B25?colorA=302237&logo=github)](https://stars.github.com/profiles/vinitshahdeo/) [![Peerlist](https://github-readme-badge.peerlist.io/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/NikhilMateti/Wedding-Invitation?logo=github)](https://wedding-invitation-master-eight.vercel.app/) [![Netlify Status](https://api.netlify.com/api/v1/badges/e945f101-f434-45e6-8c33-df855c6b2082/deploy-status)](https://app.netlify.com/sites/sonali/deploys) [![GitHub license](https://img.shields.io/github/license/NikhilMateti/Wedding-Invitation?logo=github)](https://github.com/NikhilMateti/Wedding-Invitation) [![GitHub Star - Vinit Shahdeo](https://img.shields.io/badge/GitHub_Star-%E2%AD%90_NikhilMateti-E89B25?colorA=302237&logo=github)](https://stars.github.com/profiles/NikhilMateti/) [![Peerlist](https://github-readme-badge.peerlist.io/api/NikhilMateti)](https://peerlist.io/NikhilMateti)
 -->
 ## Wedding Invitation :ring:
 
@@ -51,14 +51,14 @@ const weddingVenue = new Location('SK Crown Convention Hall,Warangal');
 
 To reuse this, follow the steps:
 
-- *Replace the date in [script.js](https://github.com/vinitshahdeo/Wedding-Invitation/blob/master/js/script.js#L29) to have a timer running for your big day!*
+- *Replace the date in [script.js](https://github.com/NikhilMateti/Wedding-Invitation/blob/master/js/script.js#L29) to have a timer running for your big day!*
 
 ```js
 // Set the date we're counting down to
 var countDownDate = new Date("April 26, 2026 00:00:00").getTime();
 ```
 
-- *If you wish to change the track which plays on click, edit the `src` in [index.html](https://github.com/vinitshahdeo/Wedding-Invitation/blob/760c4aa437115fc365f5cb86a4b428b0e292b5ba/index.html#L69)*
+- *If you wish to change the track which plays on click, edit the `src` in [index.html](https://github.com/NikhilMateti/Wedding-Invitation/blob/760c4aa437115fc365f5cb86a4b428b0e292b5ba/index.html#L69)*
 
 ```html
 <div class="music">
@@ -74,12 +74,12 @@ var countDownDate = new Date("April 26, 2026 00:00:00").getTime();
 
 ### Show your support by leaving a star! :hugs:
 
-[![Stargazers repo roster for @Nikhil/Wedding-Invitation](https://reporoster.com/stars/)](https://github.com/vinitshahdeo/Wedding-Invitation/stargazers)
+[![Stargazers repo roster for @Nikhil/Wedding-Invitation](https://reporoster.com/stars/)](https://github.com/NikhilMateti/Wedding-Invitation/stargazers)
 
 Tag me to share your wedding story on Twitter([@Nikhilmateti](https://x.com/mateti_nikhil)) :yellow_heart:
 
 > [!NOTE]
-> **Learn what I'm up to now at [vinitshahdeo.com](https://vinitshahdeo.com/)!**
+> **Learn what I'm up to now at [NikhilMateti.com](https://NikhilMateti.com/)!**
 
 <br><sup><i>With warm regards,<br>
 **Nikhil**<i></sup><br>
