@@ -591,6 +591,26 @@ a {
   z-index: 9999;
   animation: pulse 1s infinite;
 }
+/* 🔥 TEXT ON HEART */
+.click-text {
+color: #fff8dc; /* soft gold */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  font-size: clamp(0.7rem, 2.5vw, 1.2rem);
+  font-weight: bold;
+  color: white;
+
+  text-shadow: 0 0 5px black, 0 0 10px black; /* readable on heart */
+
+  pointer-events: none; /* click goes to heart */
+
+  animation: blink 1.2s infinite;
+  opacity : 50%;
+}
+
 
 @keyframes pulse {
   0% { transform: translate(-50%, -50%) scale(1); }
